@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+body{
+    background-color: #E5E5E5;
+    color: #040808;
+    font-family: serif;
+}
+
+header{
+    width: 1200px;
+    height: 96px;
+    margin: auto;
+    background-color: #53BCC0;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+    header nav a{
+        margin: 12px;
+        font-size: 24px;
+        color: #000000;
+        text-decoration: none;
+    }
+
+main{
+    width: 1200px;
+    min-height: 995px;
+    background-color: #8FD8DB;
+    margin: auto;
+
+    #hero{
+        height: 447px;
+        background-image: url(../img/Hero\ 1.jpg);
+        display: flex;
+        align-items: center;
+    }
+
+    #hero h1{
+        width: 520px;
+        padding: 8px 24px; 
+        margin-left: 123px;
+        color: hsl(199, 70%, 55%);
+        font-size: 40px;
+    
+    }
+
+    #ejemplos{
+        margin-top: 56px;
+        padding: 24px 0px;
+        background-color: #0e96b8;
+        display: flex;
+        justify-content: space-between;
+    }
+        #ejemplos article{
+            margin: 14px 68px 114px 68px;
+            width: 300px;
+            padding: 12px;
+            background-color: #6FD2D6;
+            color: #111010;
+        }
+        #ejemplos h2{
+            margin: 16px 0px;
+            font-weight: 600;
+        }
+
+}
+
+footer{
+    width: 1200px;
+    height: 150px;
+    margin: auto;
+    background-color: #6FD2D6;
+
+}
